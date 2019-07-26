@@ -22,7 +22,7 @@ export default function CharacterList() {
       })
     }
 
-    getCharacters();
+    getCharacters(); 
   }, [])
 
   return (<section className='character-list grid-view'>
