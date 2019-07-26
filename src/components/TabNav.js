@@ -16,8 +16,8 @@ const createLabel = (iconName, labelText) => <span><Icon name={iconName} />{labe
 
 const welcomeLabel = createLabel("home", "Home Page")
 const characterLabel = createLabel("users", "Characters")
-const locationLabel = createLabel("users", "Locations")
-const episodesLabel = createLabel("users", "Episodes")
+const locationLabel = createLabel("building", "Locations")
+const episodesLabel = createLabel("video", "Episodes")
 
 const panes = [
   { menuItem: <Menu.Item key='home' as={Nav} to={`/`} content={welcomeLabel} /> },
